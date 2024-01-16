@@ -2,6 +2,13 @@
 
 This Python class provides a basic implementation for representing and manipulating waveforms in the context of graph theory and vector distances. It includes functionality for computing node waveforms, summing waveforms of nodes in a subset, error correcting waveforms, and representing the error-corrected waveform.
 
+
+We consider a graph in which we know the vectors of several frames for all nodes. We assume that all nodes in this graph are entangled.
+
+In our example_usage.py file, we first initialize our class with the sample_graph. 
+Then we demonstrate getting the waveform of one node. After which, we demonstrate adding a subset of waveforms together. 
+Finally, we get the error corrected waveform using an arbitrary filter. 
+
 ## Installation:
    Clone the repository to your local machine.
 
