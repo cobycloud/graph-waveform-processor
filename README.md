@@ -36,6 +36,15 @@ print("Waveform for Node 1:", waveform_1)
 
 ```
 
+## Savitzky-Golay Filter:
+The Savitzky-Golay filter is applied in the error correction step (error_correct_waveform). It is a signal processing filter that smoothens and removes noise from the waveform. The window_size and polyorder parameters can be adjusted to fine-tune the denoising effect.
+
+## Benefits of Error Corrected Waveform
+- Improved Accuracy: The error-corrected waveform provides a more accurate representation of the underlying relationships in the system by reducing noise.
+- Enhanced Signal Quality: The denoising effect results in a cleaner and more refined waveform, contributing to better signal quality.
+- Robustness: A waveform less susceptible to errors is more robust in the face of variations or disturbances in the data.
+- Facilitates Analysis: Clean and accurate waveforms are conducive to more effective analysis, aiding in extracting meaningful insights from the data.
+
 ## Customization:
 
 - Replace the sample graph with your own graph representation logic.
